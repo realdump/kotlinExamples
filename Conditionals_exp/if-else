@@ -1,0 +1,11 @@
+fun main() {
+    val trafficLightColor = "Yellow"
+    if (trafficLightColor == "Red"){
+        println("stop")
+    }else if (trafficLightColor == "Yellow"){
+        println("caution")
+    }else if (trafficLightColor == "Green"){
+        println("go")
+    }else {println("not a valid signal")}
+
+}
